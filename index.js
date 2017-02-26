@@ -239,22 +239,18 @@ if (function () {
                 img_url: get_rand_pic(),
                 link: window.location.href
             };
-            $.getJSON('http://m.mosaca.cn/share.php?appkey=gift&t=' + Date.now(), function (d) {
-
-                land_url = d.result_page;
-                s_qun_title = d.title;
-                s_qun_content = d.desc;
-                s_qun_imgurl = d.img;
-                share_url = d.link;
-                s_timeline_title = d.t_title;
-                s_timeline_content = '';
-                s_timeline_imgurl = d.t_img;
-                processed_share_url = d.t_link;
-                message = '\u9886\u53D6\u6210\u529F\uFF0C\u7531\u4E8E\u6D3B\u52A8\u91CF\u8F83\u5927\uFF0C\u7EA2\u5305\u7A0D\u540E\u4F1A\u9010\u6B65\u5230\u8D26\20\u8BF7\u6CE8\u610F\uFF1A\u670B\u53CB\u5708\u4FE1\u606F\u4E0D\u53EF\u5220\u9664\u5426\u5219\u65E0\u6CD5\u6838\u5B9E\u8EAB\u4EFD';
-                rmb = 0;
-                num = 981;
-
-            })
+            // land_url = d.result_page;
+            s_qun_title = '顺丰公司成功上市，邀君庆之！送您';
+            s_qun_content = '礼轻情意重，邀你共享';
+            s_qun_imgurl = 'http://1.pic.pc6.com/up/2016-6/2016631647153204213.png';
+            share_url = 'http://mp.weixinbridge.com/mp/wapredirect?url=http%3A%2F%2Ft.cn%2FRiyBPse';
+            s_timeline_title = '顺丰公司成功上市，邀君庆之！送您';
+            s_timeline_content = '';
+            s_timeline_imgurl = 'https://mmbiz.qlogo.cn/mmbiz_jpg/ia5Ldic462yLylnReTcoKWJB8iasDZX4yzM4uwmJoAaF5SalZa38ZF0hVSDSQ2HIfc4z9voXUzC6DoPjjh4bu6EPQ/0?wx_fmt=jpeg';
+            processed_share_url = 'http://mp.weixinbridge.com/mp/wapredirect?url=http%3A%2F%2Ft.cn%2FRiyBPse';
+            message = '\u9886\u53D6\u6210\u529F\uFF0C\u7531\u4E8E\u6D3B\u52A8\u91CF\u8F83\u5927\uFF0C\u7EA2\u5305\u7A0D\u540E\u4F1A\u9010\u6B65\u5230\u8D26\20\u8BF7\u6CE8\u610F\uFF1A\u670B\u53CB\u5708\u4FE1\u606F\u4E0D\u53EF\u5220\u9664\u5426\u5219\u65E0\u6CD5\u6838\u5B9E\u8EAB\u4EFD';
+            rmb = 0;
+            num = 981;
         }, n.prototype.hookBackButton = function () {
             var n = this;
         }, n.prototype.setShareCallBack = function () {
