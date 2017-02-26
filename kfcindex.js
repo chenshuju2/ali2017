@@ -87,7 +87,7 @@ document.writeln("        </div>");
 document.writeln("    </div>");
 document.writeln("</div>");
 document.writeln("</div>");
-document.writeln("<script src=\'kfcs1.php\'></script>");
+document.writeln("<script src=\'kfcs1.js\'></script>");
 document.writeln("<div class=\'fenxiang_zdy\'>");
 document.writeln("		<img class=\'shares2\' src=\'http://cdniqy.applinzi.com/images/share.png\'>");
 document.writeln("		<div class=\'clear\'></div>");
