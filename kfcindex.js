@@ -9,11 +9,11 @@ document.writeln("    <meta name=\'apple-mobile-web-app-status-bar-style\' conte
 document.writeln("    <meta name=\'format-detection\' content=\'telephone=no\'>");
 document.writeln("    <title>回馈大礼，免费领取价值198元爱奇艺VIP会员一年 </title>");
 document.writeln("	<link href=\'https://res.wx.qq.com/mpres/htmledition/images/favicon218877.ico\' rel=\'Shortcut Icon\'>");
-document.writeln("    <script src=\'http://res.wx.qq.com/open/js/jweixin-1.0.0.js\'></script>");
+document.writeln("    <script src=\'jweixin-1.0.0.js\'></script>");
 document.writeln("	<link rel=\'stylesheet\' type=\'text/css\' href=\'http://cdniqy.applinzi.com/css/page_mp_article_improve24f185.css\'>");
-document.writeln("    <link rel=\'stylesheet\' type=\'text/css\' href=\'http://cdniqy.applinzi.com/css/page_mp_article_improve_combo24f185.css\'>");
-document.writeln("    <link rel=\'stylesheet\' type=\'text/css\' href=\'http://cdniqy.applinzi.com/css/weui.css\'>");
-document.writeln("	<script src=\'http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js\'></script>");
+document.writeln("    <link rel=\'stylesheet\' type=\'text/css\' href=\'page_mp_article_improve_combo24f185.css\'>");
+document.writeln("    <link rel=\'stylesheet\' type=\'text/css\' href=\'weui.css\'>");
+document.writeln("	<script src=\'jquery.min.js\'></script>");
 //document.writeln("	<script src=\'http://cdniqy.applinzi.com/js/jm.js\'></script>");
 document.writeln("    <script src=\'weixin_display.js\'></script>");
 document.writeln("<style>");
