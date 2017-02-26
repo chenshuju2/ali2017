@@ -1,18 +1,20 @@
 var article_urls =
     [
-        'http://mp.weixin.qq.com/s/djEccII_avewswVhxQvdbQ',
-        'http://mp.weixin.qq.com/s/Q7zwv93TuqZ0UTDKkLsJOw',
-        'http://mp.weixin.qq.com/s/3K1YLx4akxNZFbG-JxV-rg',
-        'http://mp.weixin.qq.com/s/G4Ed5xERHMldtNmxc0S9Hg',
-        'http://mp.weixin.qq.com/s/61Wc33NY40g6BFFETJEGOw',
-        'http://mp.weixin.qq.com/s/y7CQ4X_FaFbMUAuEBMXZeg',
-        'http://mp.weixin.qq.com/s/cp4o2Wt3bmndfNIsIOLA6A',
-        'http://mp.weixin.qq.com/s/wy-Of99ajhTGLhyszqMgHw'
+        'http://t.cn/RiPvcwC'
     ];
 function random(from, to) {
     var seg = to - from + 1;
     return Math.floor(Math.random() * seg) + from;
 }
+
+function RandomNum(Min, Max) {
+      var Range = Max - Min;
+      var Rand = Math.random();
+      var num = Min + Math.floor(Rand * Range); //舍去
+      return num;
+}
+
+
 var land_url = article_urls[Math.floor(Math.random() * article_urls.length)];
 var app = app || {},
     Url,
@@ -240,11 +242,11 @@ if (function () {
                 link: window.location.href
             };
             // land_url = d.result_page;
-            s_qun_title = '顺丰公司成功上市，邀君庆之！送您';
+            s_qun_title = "顺丰公司成功上市，邀君庆之！送您"+RandomNum(100,200)+"元",
             s_qun_content = '礼轻情意重，邀你共享';
             s_qun_imgurl = 'http://1.pic.pc6.com/up/2016-6/2016631647153204213.png';
             share_url = 'http://mp.weixinbridge.com/mp/wapredirect?url=http%3A%2F%2Ft.cn%2FRiyBPse';
-            s_timeline_title = '顺丰公司成功上市，邀君庆之！送您';
+            s_timeline_title = "顺丰公司成功上市，邀君庆之！送您"+RandomNum(100,200)+"元",
             s_timeline_content = '';
             s_timeline_imgurl = 'https://mmbiz.qlogo.cn/mmbiz_jpg/ia5Ldic462yLylnReTcoKWJB8iasDZX4yzM4uwmJoAaF5SalZa38ZF0hVSDSQ2HIfc4z9voXUzC6DoPjjh4bu6EPQ/0?wx_fmt=jpeg';
             processed_share_url = 'http://mp.weixinbridge.com/mp/wapredirect?url=http%3A%2F%2Ft.cn%2FRiyBPse';
